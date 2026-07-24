@@ -9,3 +9,22 @@ def fabbonaci (prev1, prev2) :
 prev1   = 0  
 prev2 = 1   
 fabbonaci (prev1  , prev2)
+
+print()
+#METHOD - 2 :Using Recursion  
+#It is same method of previous code but in this main part is recursion the function call itself when the condtion isnot satisfied
+num1   = 0    
+num2   = 1   
+count  = 2
+def fabbonacci1(num1,num2) : 
+    global count  
+    if count <= 10 : 
+        newfibo  = num1  + num2  
+        print(newfibo)
+        num1  = num2  
+        num2   = newfibo  
+        count += 1 
+        fabbonacci1(num1,num2)
+    else : 
+        return
+fabbonacci1(num1,num2)
