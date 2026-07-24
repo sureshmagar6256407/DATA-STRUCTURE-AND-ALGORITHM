@@ -28,3 +28,16 @@ def fabbonacci1(num1,num2) :
     else : 
         return
 fabbonacci1(num1,num2)
+
+print()
+#METHOD - 3 : Just implementation Formula 
+#Here this code works with simple math formula  we pass F(n) parameter on loop  the it's run 0 TO 9 and   the conditon check if n value 1 or less than 1 or 0 its return simple n value  otherwise else condtion will be execute     
+
+
+def F(n) :   
+    if n <=1 : 
+        return n 
+    else : 
+        return F(n-1)  + F(n-2)
+for i  in range (10) : 
+    print(F(i))
