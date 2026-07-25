@@ -10,6 +10,8 @@ prev1   = 0
 prev2 = 1   
 fabbonaci (prev1  , prev2)
 
+
+
 print()
 #METHOD - 2 :Using Recursion  
 #It is same method of previous code but in this main part is recursion the function call itself when the condtion isnot satisfied
@@ -29,11 +31,10 @@ def fabbonacci1(num1,num2) :
         return
 fabbonacci1(num1,num2)
 
+
 print()
 #METHOD - 3 : Just implementation Formula 
 #Here this code works with simple math formula  we pass F(n) parameter on loop  the it's run 0 TO 9 and   the conditon check if n value 1 or less than 1 or 0 its return simple n value  otherwise else condtion will be execute     
-
-
 def F(n) :   
     if n <=1 : 
         return n 
