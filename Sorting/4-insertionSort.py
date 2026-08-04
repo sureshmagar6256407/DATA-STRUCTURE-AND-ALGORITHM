@@ -42,18 +42,15 @@ Auxiliary Space Complexity: O(1)
 '''
 
 
-# def insertionSort(num) : 
-#     n   = len(num)
-
-#     for i  in range (1,n) : 
-#         key  = num[i]   
-#         j  = i -1     
-
-#         while j >= 0 and num[j] > key : 
-#             num[j +1] = num[j]
-#             j -= 1 
-#         num[j +1]  = key   
-#         print(num)
-
-# num  =  [64, 34, 25, 5, 22, 11, 90, 12] 
-# insertionSort(num)
+def insertionSort(num) : 
+   n   = len(num)
+   for i  in range (1,n) : 
+       key  = num[i]   
+       j  = i -1     
+       while j >= 0 and num[j] > key : 
+           num[j +1] = num[j]
+           j -= 1 
+       num[j +1]  = key   
+       print(num)
+num  =  [64, 34, 25, 5, 22, 11, 90, 12] 
+insertionSort(num)
