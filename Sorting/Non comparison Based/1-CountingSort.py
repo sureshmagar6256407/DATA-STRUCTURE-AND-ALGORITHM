@@ -3,7 +3,10 @@
 this is a non comparison sort . it works basically finding the biggest value than we create empty list where  its index 0 to max value index the we count frequency of number . then next we found the prefix sum recent value - previous value its gives us to position of the number than last loop do the place the number their exactly position 
 
 
-so you can search about countsort and read document online
+so you can search about countsort and read document online  
+
+
+TIME COMPlEXITY  O(n + k)
 '''
 
 
