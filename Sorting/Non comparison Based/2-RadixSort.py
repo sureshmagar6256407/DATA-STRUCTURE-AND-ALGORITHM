@@ -2,7 +2,7 @@
 TIME COMPLEXITY  : O(d.(n + b))
 
 
-
+basically its modify version of counting sort .. its work on the  one digit where we  need to found the max value . max value give us hint to how much round the loop run  and then we check the last one digit , and ten  and hundred like that if you want to know about the working process you can search on the google , documentation or AI 
 '''
 
 
